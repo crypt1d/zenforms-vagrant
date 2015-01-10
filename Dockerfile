@@ -2,7 +2,7 @@ FROM ubuntu:trusty
 MAINTAINER Nikola Krzalic <nikola@krzalic.com>
 # get all the pre-requisites
 RUN apt-get update
-RUN apt-get install -y qt4-qmake libqt4-dev libpq5 libpq-dev wget
+RUN apt-get install -y qt4-qmake libqt4-dev libpq5 libpq-dev wget curl
 
 #accept the gpg signature required for rvm and install everything
 RUN gpg --keyserver hkp://keys.gnupg.net --recv-keys D39DC0E3
