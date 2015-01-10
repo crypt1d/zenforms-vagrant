@@ -9,14 +9,14 @@ default: &default
 
 development:
   <<: *default
-  #host: localhost
+  host: dblocal
+  username: postgres
   database: zenforms_development
-  username: vagrant
-  password:
 
 test:
   <<: *default
-  #host: localhost
+  host: dblocal
+  username: postgres
   database: zenforms_test
 
 production:
