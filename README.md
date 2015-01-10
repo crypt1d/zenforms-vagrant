@@ -1,2 +1,2 @@
-# zenforms-vagrant
-Vagrant environment for running zenforms locally
+# zf-dev
+Development environment files for Zenforms
